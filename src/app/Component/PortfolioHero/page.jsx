@@ -58,7 +58,10 @@ export default function PortfolioHero() {
                 variant="outline"
                 className="px-8 py-6 rounded-xl border-2 border-gray-300 hover:border-blue-600 hover:bg-blue-50"
               >
-                <a href="https://drive.google.com/file/d/1aVPPiat1TeUr0XRelq2r0qPZ52gyElvI/view?usp=sharing" download>
+                <a
+                  href="https://drive.google.com/file/d/1aVPPiat1TeUr0XRelq2r0qPZ52gyElvI/view?usp=sharing"
+                  download
+                >
                   <Download className="mr-2 w-5 h-5" />
                   Download CV
                 </a>
@@ -103,14 +106,11 @@ export default function PortfolioHero() {
                 <div className="text-center space-y-4">
                   {/* Profile Photo inside Circle */}
                   <Image
-                      src="/assest/Photo.jpg" // place your image inside /public/assest/Photo.jpg
-                      alt="My Profile"
-                      fill
-                      className="object-cover overflow-hidden rounded-full border-4 border-white shadow-lg"
-                      
-                    />
-
-                  
+                    src="/assest/Photo.jpg" // place your image inside /public/assest/Photo.jpg
+                    alt="My Profile"
+                    fill
+                    className="object-cover overflow-hidden rounded-full border-4 border-white shadow-lg"
+                  />
                 </div>
               </div>
 
