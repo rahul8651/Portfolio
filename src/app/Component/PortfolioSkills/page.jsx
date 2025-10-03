@@ -16,10 +16,10 @@ export default function PortfolioSkills() {
     {
       title: 'Backend Development',
       skills: [
+        { name: 'Java', level: 85 },
+        { name: 'Python', level: 85 },
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 80 },
-        { name: 'Python (Basic)', level: 85 },
-        { name: 'Java', level: 75 },
         { name: 'REST APIs', level: 85 },
       ],
     },

@@ -175,7 +175,7 @@ export default function PortfolioContact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="John Doe"
+                  placeholder="Rahul Kumar"
                   className="w-full bg-white border-gray-300 focus:border-blue-600 focus:ring-blue-600"
                 />
               </div>
@@ -191,7 +191,7 @@ export default function PortfolioContact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="john@example.com"
+                  placeholder="rahul@example.com"
                   className="w-full bg-white border-gray-300 focus:border-blue-600 focus:ring-blue-600"
                 />
               </div>
